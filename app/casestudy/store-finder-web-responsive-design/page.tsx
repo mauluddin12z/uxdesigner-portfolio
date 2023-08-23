@@ -6,6 +6,7 @@ import DesktopViewMockup from "@/public/images/caseStudy/storefinder/desktopView
 import ProjectOverviewSection from "./projectOverviewSection";
 import PersonaSection from "./personaSection";
 import PrototypeSection from "./prototypeSection";
+import SitemapSection from "./sitemapSection";
 
 export default function Page() {
   const { ref, inView } = useInView({
@@ -38,6 +39,7 @@ export default function Page() {
         </div>
         <ProjectOverviewSection />
         <PersonaSection />
+        <SitemapSection />
         <PrototypeSection />
       </div>
     </div>
